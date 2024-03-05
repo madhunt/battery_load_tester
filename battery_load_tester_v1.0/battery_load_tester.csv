@@ -1,0 +1,27 @@
+"Source:","/home/mad/Documents/research/kicad_projects/battery_load_tester/battery_load_tester_v1.0/battery_load_tester.kicad_sch"
+"Date:","Wed 14 Feb 2024 03:16:58 PM MST"
+"Tool:","Eeschema 6.0.2+dfsg-1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","6"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MANUFACTURER"
+"","","A1","Arduino UNO (R3)","MCU_Module:Arduino_UNO_R3","Module:Arduino_UNO_R3_WithMountingHoles","https://www.arduino.cc/en/Main/arduinoBoardUno",""
+"","","C1","0.1 uF","Device:C_Small","Capacitor_SMD:C_0805_2012Metric","~",""
+"","","J1","Screw Terminal (Arduino Power)","mad_custom_parts:2p_pushterminal_1824810000","mad_custom_parts:2p_pushterminal_1824810000","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/605/1824810000.pdf",""
+"","","J2","Screw Terminal (Test Battery)","mad_custom_parts:2p_pushterminal_1824810000","mad_custom_parts:2p_pushterminal_1824810000","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/605/1824810000.pdf",""
+"","","J3","MicroSD Reader","mad_custom_parts:microsd_2905-05WB-MG","mad_custom_parts:microsd_2908-05WB-MG","https://multimedia.3m.com/mws/media/416257O/3mtm-card-connector-microsdtm-2900-series-ts2197.pdf","3M"
+"","","R1","1k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric","~",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MANUFACTURER"
+"1","1","A1","Arduino UNO (R3)","MCU_Module:Arduino_UNO_R3","Module:Arduino_UNO_R3_WithMountingHoles","https://www.arduino.cc/en/Main/arduinoBoardUno",""
+"2","1","C1","0.1 uF","Device:C_Small","Capacitor_SMD:C_0805_2012Metric","~",""
+"3","1","J1","Screw Terminal (Arduino Power)","mad_custom_parts:2p_pushterminal_1824810000","mad_custom_parts:2p_pushterminal_1824810000","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/605/1824810000.pdf",""
+"4","1","J2","Screw Terminal (Test Battery)","mad_custom_parts:2p_pushterminal_1824810000","mad_custom_parts:2p_pushterminal_1824810000","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/605/1824810000.pdf",""
+"5","1","J3","MicroSD Reader","mad_custom_parts:microsd_2905-05WB-MG","mad_custom_parts:microsd_2908-05WB-MG","https://multimedia.3m.com/mws/media/416257O/3mtm-card-connector-microsdtm-2900-series-ts2197.pdf","3M"
+"6","1","R1","1k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric","~",""

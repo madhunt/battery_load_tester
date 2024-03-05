@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/mad/Documents/research/kicad_projects/battery_load_tester/battery_load_tester_v1.0/battery_load_tester.kicad_sch</source>
+    <date>Wed 14 Feb 2024 03:16:58 PM MST</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Battery Load Tester</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2024-02-13</date>
+        <source>battery_load_tester.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino UNO (R3)</value>
+      <footprint>Module:Arduino_UNO_R3_WithMountingHoles</footprint>
+      <datasheet>https://www.arduino.cc/en/Main/arduinoBoardUno</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_UNO_R3" description="Arduino UNO Microcontroller Module, release 3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="battery_load_tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cec20b0d-acc5-4fac-9edb-aa31383211b0</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="battery_load_tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea540c74-36f3-4799-ab38-8d14dfd99ec7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw Terminal (Arduino Power)</value>
+      <footprint>mad_custom_parts:2p_pushterminal_1824810000</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/605/1824810000.pdf</datasheet>
+      <libsource lib="mad_custom_parts" part="2p_pushterminal_1824810000" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="battery_load_tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6b8ab17-334c-4ea3-8e47-eb8b1231d8c5</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw Terminal (Test Battery)</value>
+      <footprint>mad_custom_parts:2p_pushterminal_1824810000</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/605/1824810000.pdf</datasheet>
+      <libsource lib="mad_custom_parts" part="2p_pushterminal_1824810000" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="battery_load_tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff895e5a-c00e-457e-bf53-e282ffe160ef</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>MicroSD Reader</value>
+      <footprint>mad_custom_parts:microsd_2908-05WB-MG</footprint>
+      <datasheet>https://multimedia.3m.com/mws/media/416257O/3mtm-card-connector-microsdtm-2900-series-ts2197.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">3M</field>
+      </fields>
+      <libsource lib="mad_custom_parts" part="microsd_2905-05WB-MG" description=""/>
+      <property name="MANUFACTURER" value="3M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="battery_load_tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>decd17a4-3624-4860-a0be-3af8c836f1d6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="battery_load_tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9ce91d2-921d-4ef0-b181-ea7adb49b7ea</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_UNO_R3">
+      <description>Arduino UNO Microcontroller Module, release 3</description>
+      <docs>https://www.arduino.cc/en/Main/arduinoBoardUno</docs>
+      <footprints>
+        <fp>Arduino*UNO*R3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_UNO_R3</field>
+        <field name="Footprint">Module:Arduino_UNO_R3</field>
+        <field name="Datasheet">https://www.arduino.cc/en/Main/arduinoBoardUno</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IOREF" type="output"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="3V3" type="power_out"/>
+        <pin num="5" name="+5V" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="A0" type="bidirectional"/>
+        <pin num="10" name="A1" type="bidirectional"/>
+        <pin num="11" name="A2" type="bidirectional"/>
+        <pin num="12" name="A3" type="bidirectional"/>
+        <pin num="13" name="SDA/A4" type="bidirectional"/>
+        <pin num="14" name="SCL/A5" type="bidirectional"/>
+        <pin num="15" name="D0/RX" type="bidirectional"/>
+        <pin num="16" name="D1/TX" type="bidirectional"/>
+        <pin num="17" name="D2" type="bidirectional"/>
+        <pin num="18" name="D3" type="bidirectional"/>
+        <pin num="19" name="D4" type="bidirectional"/>
+        <pin num="20" name="D5" type="bidirectional"/>
+        <pin num="21" name="D6" type="bidirectional"/>
+        <pin num="22" name="D7" type="bidirectional"/>
+        <pin num="23" name="D8" type="bidirectional"/>
+        <pin num="24" name="D9" type="bidirectional"/>
+        <pin num="25" name="D10" type="bidirectional"/>
+        <pin num="26" name="D11" type="bidirectional"/>
+        <pin num="27" name="D12" type="bidirectional"/>
+        <pin num="28" name="D13" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="AREF" type="input"/>
+        <pin num="31" name="SDA/A4" type="bidirectional"/>
+        <pin num="32" name="SCL/A5" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="mad_custom_parts" part="2p_pushterminal_1824810000">
+      <docs>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/605/1824810000.pdf</docs>
+      <footprints>
+        <fp>CONN4_1824810000_WED</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2p_pushterminal_1824810000</field>
+        <field name="Footprint">mad_custom_parts:2p_pushterminal_1824810000</field>
+        <field name="Datasheet">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/605/1824810000.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="mad_custom_parts" part="microsd_2905-05WB-MG">
+      <docs>https://multimedia.3m.com/mws/media/416257O/3mtm-card-connector-microsdtm-2900-series-ts2197.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">microsd_2905-05WB-MG</field>
+        <field name="Footprint">mad_custom_parts:microsd_2908-05WB-MG</field>
+        <field name="Datasheet">https://multimedia.3m.com/mws/media/416257O/3mtm-card-connector-microsdtm-2900-series-ts2197.pdf</field>
+        <field name="MANUFACTURER">3M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="bidirectional"/>
+        <pin num="2" name="CS" type="bidirectional"/>
+        <pin num="3" name="MOSI" type="bidirectional"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="bidirectional"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="MISO" type="bidirectional"/>
+        <pin num="8" name="NC" type="bidirectional"/>
+        <pin num="9" name="SHIELD" type="bidirectional"/>
+        <pin num="10" name="SHIELD" type="bidirectional"/>
+        <pin num="11" name="SHIELD" type="bidirectional"/>
+        <pin num="12" name="SHIELD" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/usr/share/kicad/symbols//MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="mad_custom_parts">
+      <uri>/home/mad/.local/share/kicad/6.0/symbols/mad_custom_parts.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="A1" pin="4" pinfunction="3V3" pintype="power_out"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="Earth">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="J3" pin="10" pinfunction="SHIELD" pintype="bidirectional"/>
+      <node ref="J3" pin="11" pinfunction="SHIELD" pintype="bidirectional"/>
+      <node ref="J3" pin="12" pinfunction="SHIELD" pintype="bidirectional"/>
+      <node ref="J3" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J3" pin="9" pinfunction="SHIELD" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(A1-Pad8)">
+      <node ref="A1" pin="8" pinfunction="VIN" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Net-(A1-Pad9)">
+      <node ref="A1" pin="9" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(A1-Pad25)">
+      <node ref="A1" pin="25" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="CS" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(A1-Pad27)">
+      <node ref="A1" pin="27" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="J3" pin="7" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="J3" pin="5" pinfunction="CLK" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="IOREF" pintype="output+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(A1-Pad5)">
+      <node ref="A1" pin="5" pinfunction="+5V" pintype="power_out+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(A1-Pad10)">
+      <node ref="A1" pin="10" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(A1-Pad11)">
+      <node ref="A1" pin="11" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(A1-Pad12)">
+      <node ref="A1" pin="12" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(A1-Pad13)">
+      <node ref="A1" pin="13" pinfunction="SDA/A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(A1-Pad14)">
+      <node ref="A1" pin="14" pinfunction="SCL/A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(A1-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D0/RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(A1-Pad16)">
+      <node ref="A1" pin="16" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(A1-Pad17)">
+      <node ref="A1" pin="17" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="D3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(A1-Pad19)">
+      <node ref="A1" pin="19" pinfunction="D4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="D5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(A1-Pad21)">
+      <node ref="A1" pin="21" pinfunction="D6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(A1-Pad22)">
+      <node ref="A1" pin="22" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(A1-Pad23)">
+      <node ref="A1" pin="23" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(A1-Pad24)">
+      <node ref="A1" pin="24" pinfunction="D9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A1-Pad30)">
+      <node ref="A1" pin="30" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(A1-Pad31)">
+      <node ref="A1" pin="31" pinfunction="SDA/A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(A1-Pad32)">
+      <node ref="A1" pin="32" pinfunction="SCL/A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="NC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J3-Pad8)">
+      <node ref="J3" pin="8" pinfunction="NC" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

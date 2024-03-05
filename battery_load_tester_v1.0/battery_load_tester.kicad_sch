@@ -6,7 +6,8 @@
 
   (title_block
     (title "Battery Load Tester")
-    (rev "A01")
+    (date "2024-02-13")
+    (rev "1.0")
   )
 
   (lib_symbols
@@ -835,7 +836,6 @@
       )
     )
   )
-
 
   (junction (at 139.7 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 1e0dac58-b022-49ef-bde1-3a852301c4ea)
